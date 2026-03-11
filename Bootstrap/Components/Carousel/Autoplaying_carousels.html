@@ -10,52 +10,73 @@
 </head>
 
 <body>
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./Image/hUOmEZ.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./Image/OIP.webp" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./Image/wp11368681.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+    <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        Custom button
+    </button>
+
+
+    <a class="btn btn-primary disabled" role="button" aria-disabled="true">Primary link</a>
+    <a class="btn btn-secondary disabled" role="button" aria-disabled="true">Link</a>
+
+
+
+    <a href="#" class="btn btn-primary disabled" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
+    <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">Link</a>
+
+
+
+    <div class="d-grid gap-2">
+        <button class="btn btn-primary" type="button">Button</button>
+        <button class="btn btn-primary" type="button">Button</button>
     </div>
-    <br>
-    <br>
-    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./Image/hUOmEZ.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./Image/OIP.webp" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./Image/wp11368681.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+
+
+    <div class="d-grid gap-2 d-md-block">
+        <button class="btn btn-primary" type="button">Button</button>
+        <button class="btn btn-primary" type="button">Button</button>
     </div>
+
+
+
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="button">Button</button>
+        <button class="btn btn-primary" type="button">Button</button>
+    </div>
+
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-primary me-md-2" type="button">Button</button>
+        <button class="btn btn-primary" type="button">Button</button>
+    </div>
+
+
+    <p class="d-inline-flex gap-1">
+        <button type="button" class="btn" data-bs-toggle="button">Toggle button</button>
+        <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Active toggle
+            button</button>
+        <button type="button" class="btn" disabled data-bs-toggle="button">Disabled toggle button</button>
+    </p>
+    <p class="d-inline-flex gap-1">
+        <button type="button" class="btn btn-primary" data-bs-toggle="button">Toggle button</button>
+        <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Active toggle
+            button</button>
+        <button type="button" class="btn btn-primary" disabled data-bs-toggle="button">Disabled toggle button</button>
+    </p>
+
+
+    <p class="d-inline-flex gap-1">
+        <a href="#" class="btn" role="button" data-bs-toggle="button">Toggle link</a>
+        <a href="#" class="btn active" role="button" data-bs-toggle="button" aria-pressed="true">Active toggle link</a>
+        <a class="btn disabled" aria-disabled="true" role="button" data-bs-toggle="button">Disabled toggle link</a>
+    </p>
+    <p class="d-inline-flex gap-1">
+        <a href="#" class="btn btn-primary" role="button" data-bs-toggle="button">Toggle link</a>
+        <a href="#" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">Active
+            toggle link</a>
+        <a class="btn btn-primary disabled" aria-disabled="true" role="button" data-bs-toggle="button">Disabled toggle
+            link</a>
+    </p>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
